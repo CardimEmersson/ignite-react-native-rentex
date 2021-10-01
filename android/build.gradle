@@ -16,6 +16,29 @@ buildscript {
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
+    }    
+}
+
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+group = 'org.example'
+version = '1.0'
+
+publishing {
+    publications {
+        myLibrary(MavenPublication) {
+            from components.java
+        }
+    }
+
+    repositories {
+        maven {
+            name = 'myRepo'
+            url = "file://${buildDir}/repo"
+        }
     }
 }
 
@@ -35,4 +58,6 @@ allprojects {
         jcenter()
         maven { url 'https://www.jitpack.io' }
     }
+    
 }
+

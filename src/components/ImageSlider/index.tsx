@@ -22,10 +22,7 @@ export function ImageSlider({ imagesUrl }: ImageSliderProps) {
       </ImageIndexes>
 
       <CarImageWrapper>
-        <CarImage
-          source={require("../../assets/porsche-panamera.png")}
-          resizeMode="contain"
-        />
+        <CarImage source={{ uri: imagesUrl[0] }} resizeMode="contain" />
       </CarImageWrapper>
     </Container>
   );

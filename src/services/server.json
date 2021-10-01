@@ -1,6 +1,5 @@
 {
-  "cars": [
-    {
+  "cars": [{
       "id": "535e8de8-721b-4bac-8b72-7d29be7da467",
       "brand": "Audi",
       "name": "RS 5 Coupé",
@@ -9,10 +8,9 @@
         "period": "Ao dia",
         "price": 120
       },
-      "fuel_type": "electric",
+      "fuel_type": "electric_motor",
       "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/1.png",
-      "accessories": [
-        {
+      "accessories": [{
           "type": "speed",
           "name": "250km/h"
         },
@@ -54,8 +52,7 @@
       },
       "fuel_type": "gasoline_motor",
       "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-      "accessories": [
-        {
+      "accessories": [{
           "type": "speed",
           "name": "315km/h"
         },
@@ -96,8 +93,7 @@
       },
       "fuel_type": "gasoline_motor",
       "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/3.png",
-      "accessories": [
-        {
+      "accessories": [{
           "type": "speed",
           "name": "330km/h"
         },
@@ -139,8 +135,7 @@
       },
       "fuel_type": "electric_motor",
       "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/4.png",
-      "accessories": [
-        {
+      "accessories": [{
           "type": "speed",
           "name": "380km/h"
         },
@@ -182,8 +177,7 @@
       },
       "fuel_type": "gasoline_motor",
       "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-      "accessories": [
-        {
+      "accessories": [{
           "type": "speed",
           "name": "180km/h"
         },
@@ -225,8 +219,7 @@
       },
       "fuel_type": "hybrid_motor",
       "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/6.png",
-      "accessories": [
-        {
+      "accessories": [{
           "type": "speed",
           "name": "180km/h"
         },
@@ -258,8 +251,7 @@
       ]
     }
   ],
-  "schedules_bycars": [
-    {
+  "schedules_bycars": [{
       "id": "535e8de8-721b-4bac-8b72-7d29be7da467",
       "unavailable_dates": [
         "2021-06-01",
@@ -346,8 +338,7 @@
       ]
     }
   ],
-  "schedules_byuser": [
-    {
+  "schedules_byuser": [{
       "user_id": 1,
       "car": {
         "id": "535e8de8-721b-4bac-8b72-7d29be7da467",
@@ -360,8 +351,7 @@
         },
         "fuel_type": "electric",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/1.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "250km/h"
           },
@@ -409,8 +399,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/3.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "330km/h"
           },
@@ -458,8 +447,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "180km/h"
           },
@@ -507,8 +495,7 @@
         },
         "fuel_type": "electric",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/1.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "250km/h"
           },
@@ -556,8 +543,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -604,8 +590,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -652,8 +637,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -700,8 +684,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -748,8 +731,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -796,8 +778,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -844,8 +825,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -892,8 +872,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -940,8 +919,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -988,8 +966,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -1036,8 +1013,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -1084,8 +1060,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -1132,8 +1107,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -1180,8 +1154,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -1228,8 +1201,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/2.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "315km/h"
           },
@@ -1276,8 +1248,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/3.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "330km/h"
           },
@@ -1325,8 +1296,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "180km/h"
           },
@@ -1374,8 +1344,7 @@
         },
         "fuel_type": "gasoline_motor",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/5.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "180km/h"
           },
@@ -1423,8 +1392,7 @@
         },
         "fuel_type": "electric",
         "thumbnail": "https://storage.googleapis.com/golden-wind/ignite/react-native/thumbnails/1.png",
-        "accessories": [
-          {
+        "accessories": [{
             "type": "speed",
             "name": "250km/h"
           },
