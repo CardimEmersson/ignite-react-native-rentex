@@ -6,21 +6,41 @@ import { RFValue } from "react-native-responsive-fontsize";
 import { useNavigation, CommonActions } from "@react-navigation/native";
 
 import Logo from "../../assets/logo.svg";
-import { Car, CarData } from "../../components/Car";
+import { Car } from "../../components/Car";
 import { Load } from "../../components/Load";
-import { Container, Header, TotalCars, HeaderContent, CarList } from "./styles";
+import { Ionicons } from "@expo/vector-icons";
+import { useTheme } from "styled-components";
+import {
+  Container,
+  Header,
+  TotalCars,
+  HeaderContent,
+  CarList,
+  MyCarsButton,
+} from "./styles";
 
 export function Home() {
   const [cars, setCars] = useState<CarDTO[]>([]);
   const [loading, setLoading] = useState(true);
   const navigation = useNavigation();
 
+  const theme = useTheme();
+
   function handleCarDetails(car: CarDTO) {
     // navigation.navigate("CarDetails");
     navigation.dispatch(
       CommonActions.navigate({
         name: "CarDetails",
-        params: car,
+        params: { car },
+      })
+    );
+  }
+
+  function handleOpenMyCars() {
+    // navigation.navigate("CarDetails");
+    navigation.dispatch(
+      CommonActions.navigate({
+        name: "MyCars",
       })
     );
   }
@@ -63,6 +83,10 @@ export function Home() {
           )}
         />
       )}
+
+      <MyCarsButton onPress={handleOpenMyCars}>
+        <Ionicons name="ios-car-sport" size={32} color={theme.colors.shape} />
+      </MyCarsButton>
     </Container>
   );
 }

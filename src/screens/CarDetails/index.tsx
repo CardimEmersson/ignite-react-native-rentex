@@ -37,12 +37,15 @@ export function CarDetails() {
   const navigation = useNavigation();
   const route = useRoute();
 
-  const car = route.params as CarDTO;
+  const { car } = route.params as Params;
 
   function handleConfirmRental() {
     navigation.dispatch(
       CommonActions.navigate({
         name: "Sheduling",
+        params: {
+          car,
+        },
       })
     );
   }
