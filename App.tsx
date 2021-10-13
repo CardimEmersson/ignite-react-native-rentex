@@ -18,7 +18,8 @@ import { Routes } from "./src/routes";
 import theme from "./src/styles/theme";
 
 export default function App() {
-  LogBox.ignoreLogs(["Remote debugger"]);
+  LogBox.ignoreLogs(["Remote debugger", "Reanimated 2"]);
+  // LogBox.ignoreLogs([]);
   const [fontsLoaded] = useFonts({
     Inter_400Regular,
     Inter_500Medium,
